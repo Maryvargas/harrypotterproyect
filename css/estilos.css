@@ -766,3 +766,17 @@ align-items: center;
     z-index: 1;
     color: #4f5b66;
 }
+
+.bottom-admi{
+    color: white;
+    
+    margin-bottom: auto;
+    background: rgb(39, 38, 38);
+    display: block;
+    width: 100%;
+    padding: 15px 0x;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+
+}
