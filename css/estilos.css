@@ -1,0 +1,768 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kurale', serif;
+}
+.contenedor {
+    width: 97%;
+    margin: 0 auto;
+    min-width: 280px;
+    max-width: 2000px
+}
+
+h1 {
+    background-color: rgb(26, 31, 36);
+    font-family: 'Kurale', serif;
+    color: floralwhite;
+}
+
+h2 {
+    font-family: 'Kurale', serif;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    border-color: black;
+}
+
+h3 {
+    font-family: 'Kurale', serif;
+    color: rgb(26, 31, 36);
+}
+
+.col {
+    color: rgb(255, 255, 255);
+    font-family: 'Kurale', serif;
+}
+
+.text-right {
+    color: rgb(255, 255, 255);
+}
+
+h4 {
+    font-family: 'Kurale', serif;
+    border-color: gray;
+}
+
+p {
+    font-family: 'Kurale', serif;
+}
+
+.borrar-producto {
+    background: #0681a7;
+    border-radius: 100%;
+    padding: 5px 11px;
+    text-decoration: none;
+    color: rgb(39, 37, 37);
+    font-weight: bold;
+}
+
+.button {
+    background: #0681a7;
+    color: white;
+    border-radius: 0%;
+    text-align: center;
+    font-family: 'Kurale', serif;
+    font-size: 15px;
+    border-style: groove;
+}
+
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito {
+    display: none;
+}
+
+.submenu:hover #carrito {
+    display: block;
+    color: white;
+    position: absolute;
+    right: 0%;
+    top: 100%;
+    z-index: 1;
+    background: rgb(39, 37, 37);
+    padding: 20px;
+}
+
+.info {
+    background-color: rgb(39, 37, 37);
+    color: floralwhite;
+}
+
+.columnas {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    background-color: #e7e7e7;
+    padding-bottom: 35px;
+    padding-top: 0px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+.form-login{
+    
+    font-family: 'Kurale', serif;
+    
+    
+}
+
+.controls{
+    color: #ffffff;
+}
+
+
+
+
+
+.cuadro {
+    width: 23%;
+    text-align: center;
+    float: left;
+    margin-top: 35px;
+    background-color: #3a3a3a;
+    padding-bottom: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 3px;
+    padding-top: 20px;
+    border-bottom: 4px solid #0681a7;
+    box-sizing: border-box;
+}
+
+.columnas .cuadro h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #0681a7;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.columnas .cuadro p {
+    margin: 0;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.fotos {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    max-height: 390px;
+    opacity: 0.8;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.columnas .cuadro img:hover {
+    border: 5px solid #0681a7;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    float: right;
+    display: block;
+    padding: 0px 10px;
+}
+
+#menu img {
+    display: block;
+    padding: 12px 26px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.menu img:hover {
+    border: 5px solid #0681a7;
+}
+
+.tazahogwarts {
+    width: 100%;
+    margin: auto;
+    max-width: 1450px;
+    padding: 15px;
+    background: rgb(216, 215, 213);
+    background-size: cover;
+}
+
+.tazahogwarts img {
+    float: left;
+    width: "400px";
+    margin-right: 35px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.titulop {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: 'Kurale', serif;
+    font-size: 50px;
+}
+
+.tazahogwarts p {
+    font-size: 20px;
+    font-weight: 50px;
+}
+
+.comprar img {
+    float: right;
+}
+
+.comprar img:hover {
+    border: 5px solid #0681a7;
+}
+
+.funkoharry {
+    width: 100%;
+    margin: auto;
+    max-width: 1450px;
+    padding: 15px;
+    background: rgb(216, 215, 213);
+    background-size: cover;
+}
+
+.funkoharry img {
+    float: left;
+    width: "400px";
+    margin-right: 35px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.funkoharry p {
+    font-size: 20px;
+    font-weight: 50px;
+}
+
+.comprar img {
+    float: right;
+}
+
+.tazafunko {
+    width: 100%;
+    margin: auto;
+    max-width: 1450px;
+    padding: 15px;
+    background: rgb(216, 215, 213);
+    background-size: cover;
+}
+
+.tazafunko img {
+    float: left;
+    width: "400px";
+    margin-right: 35px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.tazafunko p {
+    font-size: 20px;
+    font-weight: 50px;
+}
+
+.comprar img {
+    float: right;
+}
+
+.tazapatronus {
+    width: 100%;
+    margin: auto;
+    max-width: 1450px;
+    padding: 15px;
+    background: rgb(216, 215, 213);
+    background-size: cover;
+}
+
+.tazapatronus img {
+    float: left;
+    width: "400px";
+    margin-right: 35px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.tazapatronus p {
+    font-size: 20px;
+    font-weight: 50px;
+}
+
+.comprar img {
+    float: right;
+}
+
+.funkovoldemort {
+    width: 100%;
+    margin: auto;
+    max-width: 1450px;
+    padding: 15px;
+    background: rgb(216, 215, 213);
+    background-size: cover;
+}
+
+.funkovoldemort img {
+    float: left;
+    width: "400px";
+    margin-right: 35px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.funkovoldemort p {
+    font-size: 20px;
+    font-weight: 50px;
+}
+
+.comprar img {
+    float: right;
+}
+
+.funkoharryquidditch {
+    width: 100%;
+    margin: auto;
+    max-width: 1450px;
+    padding: 15px;
+    background: rgb(216, 215, 213);
+    background-size: cover;
+}
+
+.funkoharryquidditch img {
+    float: left;
+    width: "400px";
+    margin-right: 35px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.funkoharryquidditch p {
+    font-size: 20px;
+    font-weight: 50px;
+}
+
+.comprar img {
+    float: right;
+}
+
+.funkodumbledore {
+    width: 100%;
+    margin: auto;
+    max-width: 1450px;
+    padding: 15px;
+    background: rgb(216, 215, 213);
+    background-size: cover;
+}
+
+.funkodumbledore img {
+    float: left;
+    width: "400px";
+    margin-right: 35px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.funkodumbledore p {
+    font-size: 20px;
+    font-weight: 50px;
+}
+
+.comprar img {
+    float: right;
+}
+
+.funkobellatrix {
+    width: 100%;
+    margin: auto;
+    max-width: 1450px;
+    padding: 15px;
+    background: rgb(216, 215, 213);
+    background-size: cover;
+}
+
+.funkobellatrix img {
+    float: left;
+    width: "400px";
+    margin-right: 35px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.funkobellatrix p {
+    font-size: 20px;
+    font-weight: 50px;
+}
+
+.comprar img {
+    float: right;
+}
+
+.funkodraco {
+    width: 100%;
+    margin: auto;
+    max-width: 1450px;
+    padding: 15px;
+    background: rgb(216, 215, 213);
+    background-size: cover;
+}
+
+.funkodraco img {
+    float: left;
+    width: "400px";
+    margin-right: 35px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.funkodraco p {
+    font-size: 20px;
+    font-weight: 50px;
+}
+
+.comprar img {
+    float: right;
+}
+
+.maletin {
+    width: 100%;
+    margin: auto;
+    max-width: 1450px;
+    padding: 15px;
+    background: rgb(216, 215, 213);
+    background-size: cover;
+}
+
+.maletin img {
+    float: left;
+    width: "400px";
+    margin-right: 35px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.maletin p {
+    font-size: 20px;
+    font-weight: 50px;
+}
+
+.comprar img {
+    float: right;
+}
+
+.grageasuno {
+    width: 100%;
+    margin: auto;
+    max-width: 1450px;
+    padding: 15px;
+    background: rgb(216, 215, 213);
+    background-size: cover;
+}
+
+.grageasuno img {
+    float: left;
+    width: "400px";
+    margin-right: 35px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.grageasuno p {
+    font-size: 20px;
+    font-weight: 50px;
+}
+
+.comprar img {
+    float: right;
+}
+
+.grageasdos {
+    width: 100%;
+    margin: auto;
+    max-width: 1450px;
+    padding: 15px;
+    background: rgb(216, 215, 213);
+    background-size: cover;
+}
+
+.grageasdos img {
+    float: left;
+    width: "400px";
+    margin-right: 70px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.grageasdos p {
+    font-size: 20px;
+    font-weight: 50px;
+}
+
+.comprar img {
+    float: right;
+    margin-right: 35px;
+}
+
+.registro {
+    background-repeat: none;
+    background-size: 10px;
+    min-width: 100%;
+}
+
+.nosotros {
+    color: white;
+    border-color: black;
+}
+
+
+/* formulario*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-login {
+    width: 400px;
+    height: 340px;
+    background: #a195a0;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #7f00b1;
+    color: white;
+}
+
+.form-login h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.controls {
+    width: 100%;
+    border: 1px solid #0815c2;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttons {
+    width: 100%;
+    height: 40px;
+    background: #64005f;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.form-login p {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.form-login a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-login a:hover {
+    text-decoration: underline;
+}
+
+
+/* registro7*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.registro {
+    width: 400px;
+    height: 340px;
+    background: #a195a0;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #7f00b1;
+    color: white;
+}
+
+.registro h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.control {
+    width: 100%;
+    border: 1px solid #0815c2;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.botones {
+    width: 100%;
+    height: 40px;
+    background: #64005f;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.registro p {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.registro a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.registro a:hover {
+    text-decoration: underline;
+}
+
+.wrap{
+    max-width: 1100px;
+    margin: auto;
+    width: 90%;
+
+}
+
+.store-wrapper{
+    display: flex;
+}
+
+.category-list{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+}
+
+.category-list .category_item{
+    display: block;
+    width: 90%;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    background:  #0681a7;
+    text-decoration: none;
+    text-align: center;
+    color: oldlace;
+}
+
+
+.products-list{
+    width: 82%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.products-list .product-item{
+width: 21%;
+margin-left: 3%;
+margin-bottom: 25px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.products-list .product-item img{
+    width: 100%;
+}
+
+.products-list .product-item a{
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    background: #0681a7;
+    color: oldlace;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container-1{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+  }
+
+  .container-1 input#search{
+    width: 300px;
+    height: 50px;
+    background: #2b303b;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  .container-1 input#search::-webkit-input-placeholder {
+    color: #65737e;
+ }
+  
+ .container-1 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #65737e;  
+ }
+  
+ .container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #65737e;  
+ }
+  
+ .container-1 input#search:-ms-input-placeholder {  
+    color: #65737e;  
+ }
+
+ .container-1 .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #4f5b66;
+}
